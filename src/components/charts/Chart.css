@@ -1,0 +1,69 @@
+/* Container for the entire chart */
+.chart-container {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Chart title styling */
+.chart-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Responsive chart wrapper */
+.chart-wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Axis labels styling */
+.chart-axis-label {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Tooltip styling */
+.chart-tooltip {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Legend styling */
+.chart-legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.chart-legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.chart-legend-color-box {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+}
+
+.chart-legend-label {
+    font-size: 14px;
+    color: #333;
+}

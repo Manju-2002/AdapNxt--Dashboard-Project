@@ -1,0 +1,13 @@
+.dashboard {
+    padding: 20px;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.chart {
+    flex: 1;
+}
